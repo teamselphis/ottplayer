@@ -16,60 +16,48 @@ export class DummyService {
   categories = [
     {
       img: 'assets/imgs/logo.png',
-      name: 'Nacional'
+      name: 'All'
     },
     {
       img: 'assets/imgs/coffee.png',
-      name: 'Deportes'
+      name: 'Coffee'
     },
     {
       img: 'assets/imgs/drink.png',
-      name: 'Infantiles'
+      name: 'Drink'
     },
     {
       img: 'assets/imgs/food.png',
-      name: 'Peliculas'
+      name: 'Fast Food'
     },
     {
       img: 'assets/imgs/cupcake.png',
-      name: 'Cultura'
+      name: 'Cake'
     },
     {
       img: 'assets/imgs/cupcake2.png',
-      name: 'Variedad'
+      name: 'Cake'
     },
     {
       img: 'assets/imgs/milk-tea.png',
-      name: 'Música'
-    },{
-      img: 'assets/imgs/milk-tea.png',
-      name: 'Internacional'
-    },{
-      img: 'assets/imgs/milk-tea.png',
-      name: 'Adulto'
-    }
+      name: 'Milk Tea'
+    },
   ];
 
-  foods = [
+  canales = [
     {
-      img: 'assets/imgs/food1.jpg',
-      name: 'Turkey Breast',
-      price: '13.00',
-      type: 'veg',
+      img: 'assets/canales/Logos/globovision.jpg',
+      name: 'GLOBOVISIÓN',
       status: false
     },
     {
-      img: 'assets/imgs/food2.jpg',
-      name: 'Black Forest Ham',
-      price: '19.00',
-      type: 'veg',
+      img: 'assets/canales/Logos/fanbtv.jpg',
+      name: 'FANB TV',
       status: true
     },
     {
-      img: 'assets/imgs/food3.jpg',
-      name: 'Albacore Tuna',
-      price: '22.00',
-      type: 'non-veg',
+      img: 'assets/canales/Logos/meridianotv.jpg',
+      name: 'MERIDIANO TV',
       status: true
     },
     {

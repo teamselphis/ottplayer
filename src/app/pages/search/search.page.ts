@@ -21,11 +21,11 @@ export class SearchPage implements OnInit {
     'Milk Tea', 'Rice Chicken', 'Coffee'
   ];
 
-  foods = [];
+  canales = [];
 
 
   constructor(private modalCtrl: ModalController, private dummy: DummyService) {
-    this.foods = this.dummy.foods;
+    this.canales = this.dummy.canales;
   }
 
   ngOnInit() {

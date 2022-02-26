@@ -18,10 +18,10 @@ import { SheetState } from 'ion-bottom-sheet';
 })
 export class ConfirmOrderPage implements OnInit {
 
-    foods = [];
+    canales = [];
     currentCard = 1;
     constructor(private navCtrl: NavController, private dummy: DummyService) {
-        this.foods = this.dummy.foods;
+        this.canales = this.dummy.canales;
     }
 
     ngOnInit() {

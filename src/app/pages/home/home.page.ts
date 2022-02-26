@@ -20,11 +20,11 @@ import { ModalController } from '@ionic/angular';
 export class HomePage implements OnInit {
 
   categories;
-  foods;
+  canales;
 
   constructor(private modalCtrl: ModalController, private router: Router, private dummy: DummyService) {
     this.categories = this.dummy.categories;
-    this.foods = this.dummy.foods;
+    this.canales = this.dummy.canales;
   }
 
   ngOnInit() {

@@ -8,11 +8,17 @@
  -->
 <ion-header mode="md" class="ion-no-border">
     <ion-toolbar>
-        <ion-title>Nearby</ion-title>
-        <ion-select value="kalanala" slot="end">
-            <ion-select-option value="kalanala">Kalanala, Bhavnagar</ion-select-option>
-            <ion-select-option value="panwadi">Panwadi, Bhavnagar</ion-select-option>
-            <ion-select-option value="panwadi2">1234, Kalanala, Panwadi, Bhavnagar</ion-select-option>
+        <ion-title>Categorías</ion-title>
+        <ion-select value="Categorías" slot="end">
+            <ion-select-option value="Nacional">Nacional</ion-select-option>
+            <ion-select-option value="Internacional">Internacional</ion-select-option>
+            <ion-select-option value="Deportes">Deportes</ion-select-option>
+            <ion-select-option value="Infantiles">Infantiles</ion-select-option>
+            <ion-select-option value="Películas">Películas</ion-select-option>
+            <ion-select-option value="Cultura">Cultura</ion-select-option>
+            <ion-select-option value="Variedad">Variedad</ion-select-option>
+            <ion-select-option value="Música">Música</ion-select-option>
+            <ion-select-option value="Adulto">Adulto</ion-select-option>
         </ion-select>
     </ion-toolbar>
     <div class="tabs_div">
@@ -25,7 +31,7 @@
 <ion-content>
     <div class="main_content_div">
 
-        <div class="rest_div" *ngFor="let item of rest">
+       <div class="rest_div" *ngFor="let item of rest">
             <div class="bg_image back_image" [style.backgroundImage]="'url('+ item.img +')'"></div>
             <div class="rest_detail">
                 <div class="name_flex">
@@ -33,20 +39,7 @@
                     <ion-icon name="bookmark-outline"></ion-icon>
                 </div>
                 <div class="address_flex">
-                    <ion-icon name="location"></ion-icon>
-                    <ion-label>76A Eighth Avenue, New York.</ion-label>
-                </div>
-                <div class="bottom_flex">
-                    <div class="rate_flex">
-                        <ion-icon name="star"></ion-icon>
-                        <ion-label>4.3</ion-label>
-                        <span>(1200 Reviews)</span>
-                    </div>
-                    <div class="time_flex">
-                        <ion-label>30 Min</ion-label>
-                        &nbsp;•&nbsp;
-                        <ion-label>0.5 km</ion-label>
-                    </div>
+                    <ion-label>Ver canal</ion-label>
                 </div>
             </div>
         </div>

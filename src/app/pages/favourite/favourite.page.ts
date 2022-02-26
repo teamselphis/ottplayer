@@ -17,10 +17,10 @@ import { Component, OnInit } from '@angular/core';
 export class FavouritePage implements OnInit {
 
     tabID = 'ongoing';
-    foods;
+    canales;
 
     constructor(private dummy: DummyService) {
-        this.foods = this.dummy.foods;
+        this.canales = this.dummy.canales;
     }
 
     ngOnInit() {

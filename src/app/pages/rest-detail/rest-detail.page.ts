@@ -19,11 +19,11 @@ import { ModalController, NavController } from '@ionic/angular';
 export class RestDetailPage implements OnInit {
 
   tabID = 'products';
-  foods = [];
+  canales = [];
 
   constructor(private dummy: DummyService, private navCtrl: NavController, private modalCtrl: ModalController) {
     // this.categories = this.dummy.categories;
-    this.foods = this.dummy.foods;
+    this.canales = this.dummy.canales;
   }
 
   ngOnInit() {

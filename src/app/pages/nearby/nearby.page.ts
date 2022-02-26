@@ -16,12 +16,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NearbyPage implements OnInit {
 
-  tabs = ['Food', 'Drink', 'Cakes', 'Asia'];
-  tabID = 'Food';
+  tabs = ['Lo más visto','Todos los canales'];
+  tabID = 'tabcategorias';
 
   rest;
   constructor(private dummy: DummyService) {
-    this.rest = this.dummy.foods;
+    this.rest = this.dummy.canales;
   }
 
   ngOnInit() {
