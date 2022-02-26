@@ -16,32 +16,38 @@ export class DummyService {
   categories = [
     {
       img: 'assets/imgs/logo.png',
-      name: 'All'
+      name: 'Nacional'
     },
     {
       img: 'assets/imgs/coffee.png',
-      name: 'Coffee'
+      name: 'Deportes'
     },
     {
       img: 'assets/imgs/drink.png',
-      name: 'Drink'
+      name: 'Infantiles'
     },
     {
       img: 'assets/imgs/food.png',
-      name: 'Fast Food'
+      name: 'Peliculas'
     },
     {
       img: 'assets/imgs/cupcake.png',
-      name: 'Cake'
+      name: 'Cultura'
     },
     {
       img: 'assets/imgs/cupcake2.png',
-      name: 'Cake'
+      name: 'Variedad'
     },
     {
       img: 'assets/imgs/milk-tea.png',
-      name: 'Milk Tea'
-    },
+      name: 'Música'
+    },{
+      img: 'assets/imgs/milk-tea.png',
+      name: 'Internacional'
+    },{
+      img: 'assets/imgs/milk-tea.png',
+      name: 'Adulto'
+    }
   ];
 
   foods = [
