@@ -16,48 +16,60 @@ export class DummyService {
   categories = [
     {
       img: 'assets/imgs/logo.png',
-      name: 'All'
+      name: 'Nacional'
     },
     {
       img: 'assets/imgs/coffee.png',
-      name: 'Coffee'
+      name: 'Deportes'
     },
     {
       img: 'assets/imgs/drink.png',
-      name: 'Drink'
+      name: 'Infantiles'
     },
     {
       img: 'assets/imgs/food.png',
-      name: 'Fast Food'
+      name: 'Peliculas'
     },
     {
       img: 'assets/imgs/cupcake.png',
-      name: 'Cake'
+      name: 'Cultura'
     },
     {
       img: 'assets/imgs/cupcake2.png',
-      name: 'Cake'
+      name: 'Variedad'
     },
     {
       img: 'assets/imgs/milk-tea.png',
-      name: 'Milk Tea'
-    },
+      name: 'Música'
+    },{
+      img: 'assets/imgs/milk-tea.png',
+      name: 'Internacional'
+    },{
+      img: 'assets/imgs/milk-tea.png',
+      name: 'Adulto'
+    }
   ];
 
-  canales = [
+  foods = [
     {
-      img: 'assets/canales/Logos/globovision.jpg',
-      name: 'GLOBOVISIÓN',
+      img: 'assets/imgs/food1.jpg',
+      name: 'Turkey Breast',
+      price: '13.00',
+      type: 'veg',
       status: false
     },
     {
-      img: 'assets/canales/Logos/fanbtv.jpg',
-      name: 'FANB TV',
+      img: 'assets/imgs/food2.jpg',
+      name: 'Black Forest Ham',
+      price: '19.00',
+      type: 'veg',
       status: true
     },
     {
-      img: 'assets/canales/Logos/meridianotv.jpg',
-      name: 'MERIDIANO TV',
+      img: 'assets/imgs/food3.jpg',
+      name: 'Albacore Tuna',
+      price: '22.00',
+      type: 'non-veg',
       status: true
     },
     {
@@ -104,6 +116,72 @@ export class DummyService {
     },
   ];
 
+
+  canales = [
+    {
+      img: 'assets/imgs/food1.jpg',
+      name: 'Turkey Breast',
+      price: '13.00',
+      type: 'veg',
+      status: false
+    },
+    {
+      img: 'assets/imgs/food2.jpg',
+      name: 'Black Forest Ham',
+      price: '19.00',
+      type: 'veg',
+      status: true
+    },
+    {
+      img: 'assets/imgs/food3.jpg',
+      name: 'Albacore Tuna',
+      price: '22.00',
+      type: 'non-veg',
+      status: true
+    },
+    {
+      img: 'assets/imgs/food4.jpg',
+      name: 'Mac and Cheese',
+      price: '23.00',
+      type: 'veg',
+      status: true
+    },
+    {
+      img: 'assets/imgs/food5.jpg',
+      name: 'Asian Noodle',
+      price: '13.00',
+      type: 'veg',
+      status: false
+    },
+    {
+      img: 'assets/imgs/food6.jpg',
+      name: 'Kimchi',
+      price: '17.00',
+      type: 'veg',
+      status: false
+    },
+    {
+      img: 'assets/imgs/food7.jpg',
+      name: 'Skillet Cookie',
+      price: '14.00',
+      type: 'non-veg',
+      status: false
+    },
+    {
+      img: 'assets/imgs/food8.jpg',
+      name: 'Chilli Lime Tofu',
+      price: '15.00',
+      type: 'veg',
+      status: true
+    },
+    {
+      img: 'assets/imgs/food9.jpg',
+      name: 'Steak and Cheest',
+      price: '20.00',
+      type: 'veg',
+      status: true
+    },
+  ];
   rest = [
     {
       img: 'assets/imgs/rest1.jpg',

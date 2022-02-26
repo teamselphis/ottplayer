@@ -35,9 +35,9 @@
 
     <div class="cat_slider">
       <div class="main_cat" *ngFor="let item of categories">
-        <div class="cat_box">
+       <!-- <div class="cat_box">
           <img [src]="item.img">
-        </div>
+        </div>-->
         <ion-label>{{item.name}}</ion-label>
       </div>
     </div>
@@ -50,7 +50,7 @@
     </div>
 
     <div class="product_slider">
-      <div class="single_pro" *ngFor="let item of foods" (click)="goToRestDetail()">
+      <div class="single_pro" *ngFor="let item of canales" (click)="goToRestDetail()">
         <div class="bg_image pro_image" [style.backgroundImage]="'url('+ item.img +')'"></div>
         <div class="food_detail">
           <ion-label class="name_lbl">{{item.name}}</ion-label>
